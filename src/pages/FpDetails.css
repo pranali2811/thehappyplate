@@ -1,0 +1,34 @@
+.img
+{
+    width: 600px;
+}
+.hero-body
+{
+    background-size: cover;
+    background:  linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    /* background-color: #a5c5c7;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.title is-2
+{
+ color: red;
+}
+column is-6 is-offset-1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: springgreen;
+}
+.subtitle is-4
+{
+ font-size: x-small;
+ font-family: 'Times New Roman', Times, serif;
+ color: tomato;
+}
+.sne{
+    font-size: x-small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+

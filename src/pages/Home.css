@@ -1,0 +1,31 @@
+#h1
+{
+    text-align: center;
+    color: chartreuse;
+}
+.chare
+{
+    
+    text-align: center;
+    /* color: darkmagenta; */
+    /* text-decoration: underline;*/
+} 
+hr.new1 {
+    border-top: 1px solid red;
+    color: rgb(34, 34, 175);
+  }
+
+.gap{
+    margin-top: 40px;
+}
+.bgsize{
+    height: 300px;
+}
+.he
+{
+    background-size: cover;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+
+  

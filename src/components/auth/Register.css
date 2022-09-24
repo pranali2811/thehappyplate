@@ -1,0 +1,98 @@
+.field{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.large{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.small
+{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.big
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.level
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+.large:focus
+{
+    border: 3px solid rgb(118, 199, 247);
+}
+.small:focus
+{
+    border: 3px solid rgb(118, 199, 247);
+}
+.big:focus
+{
+    border: 3px solid rgb(118, 199, 247);
+    
+}
+.level:focus
+{
+    border: 3px solid rgb(118, 199, 247);
+}
+.bottom
+{
+    border-radius: 4px;
+  background-color: #1ed4f4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.bottom span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .bottom span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bottom:hover span {
+    padding-right: 25px;
+  }
+  
+  .bottom:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .grey
+  {
+    text-align: center;
+  text-transform: uppercase;
+  color: #6a4caf;
+  }
+  .black
+  {
+    text-align: center;
+  }
